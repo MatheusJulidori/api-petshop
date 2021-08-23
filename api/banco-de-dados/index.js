@@ -10,4 +10,4 @@ const instance = new Sequelize(
     }
 )
 
-module.exports = instancia
+module.exports = instance

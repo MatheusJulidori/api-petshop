@@ -5,6 +5,11 @@ const config = require('config');
 app.use(express.json())
 
 
-app.listen(config.get('api.port'), () => {
+const router = require('./rotas/fornecedores');
+app.use('/api/fornecedores', router)
+
+var port = config.get('api.port')
+
+app.listen(port, () => {
     console.log('listening on port ' + port);
 });
