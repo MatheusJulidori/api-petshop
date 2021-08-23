@@ -1,0 +1,26 @@
+{
+    "name": "api-petshop",
+    "version": "1.0.0",
+    "description": "This repo was created during the second part of the Alura's NodeJS + Express Course.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MatheusJulidori/api-petshop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MatheusJulidori/api-petshop/issues"
+    },
+    "homepage": "https://github.com/MatheusJulidori/api-petshop#readme",
+    "dependencies": {
+        "config": "^3.3.6",
+        "express": "^4.17.1",
+        "mysql2": "^2.3.0",
+        "sequelize": "^6.6.5"
+    }
+}
