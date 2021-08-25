@@ -1,4 +1,4 @@
-const ModeloTabela = require('../rotas/fornecedores/model')
+const ModeloTabela = require('../rotas/fornecedores/ModeloTabelaFornecedor')
 
 ModeloTabela
     .sync()

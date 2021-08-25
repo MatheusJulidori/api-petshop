@@ -1,11 +1,11 @@
-const router = require('express').Router()
-const tabelaFornecedor = require('./table')
+const roteador = require('express').Router()
+const TabelaFornecedor = require('./TabelaFornecedor')
 
-router.use('/', async(req, res) => {
-    const results = await tabelaFornecedor.listar()
-    res.send(
-        JSON.stringify(results)
+roteador.use('/', async (requisicao, resposta) => {
+    const resultados = await TabelaFornecedor.listar()
+    resposta.send(
+        JSON.stringify(resultados)
     )
 })
 
-module.exports = router
+module.exports = roteador
